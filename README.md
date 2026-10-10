@@ -8,7 +8,7 @@ No Spicy installation is needed on the viewing computer, tablet or phone. Open t
 
 Create and play presentations in any Chromium-based browser — Chrome, Edge, Yandex Browser and more.
 
-[![Spicy Slides — click to try the live demo](docs/assets/cover.png)](https://abkuznetsov.github.io/SPICY/)
+[![Spicy Slides — click to try the live demo](docs/assets/cover-branded.png)](https://abkuznetsov.github.io/SPICY/)
 
 ### [Try the live presentation →](https://abkuznetsov.github.io/SPICY/)
 
@@ -39,7 +39,7 @@ This presentation was created with an OpenAI GPT model and the SPICY Slides plug
 
 Choose a slide on the left, arrange your content on the canvas, and adjust the selected object on the right. Preview lets you try the interactions before presenting.
 
-![The actual Spicy editor with a slide list, canvas and object settings](docs/assets/editor.jpg)
+![The actual Spicy editor with a slide list, canvas and object settings](docs/assets/editor-en.jpg)
 
 ## Download
 
