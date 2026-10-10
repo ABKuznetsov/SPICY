@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spicy Slides — interactive presentations &amp; presenter mode</title>
+  <meta name="description" content="Spicy Slides presentation editor: clickable attachments, interactive charts, presenter mode, custom HTML widgets and a ChatGPT plugin. Try the live demo.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://abkuznetsov.github.io/SPICY/">
+  <meta name="theme-color" content="#f5f1e9">
+  <meta property="og:title" content="Spicy Slides — presentations you can explore">
+  <meta property="og:description" content="Interactive presentations with clickable details, live charts, presenter mode and a ChatGPT companion. Try the demo right inside the page.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abkuznetsov.github.io/SPICY/">
+  <meta property="og:site_name" content="Spicy Slides">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://abkuznetsov.github.io/SPICY/assets/cover.png">
+  <meta property="og:image:alt" content="Spicy Slides: a red pepper above layers of presentation slides">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Spicy Slides — interactive presentations">
+  <meta name="twitter:description" content="Click into a picture. Explore a live chart. Try the presentation right inside the page.">
+  <meta name="twitter:image" content="https://abkuznetsov.github.io/SPICY/assets/cover.png">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Spicy Slides","url":"https://abkuznetsov.github.io/SPICY/","applicationCategory":"MultimediaApplication","description":"Presentation editor for interactive slides, clickable attachments, HTML widgets and presenter mode. A Spicy Slides plugin for ChatGPT helps create editable drafts.","image":"https://abkuznetsov.github.io/SPICY/assets/cover.png","screenshot":"https://abkuznetsov.github.io/SPICY/assets/editor.jpg","sameAs":"https://github.com/ABKuznetsov/SPICY"}</script>
+</head>
+<body>
+  <a class="skip" href="#demo">Skip to the live demo</a>
+  <header class="topbar wrap">
+    <a class="brand" href="./" aria-label="Spicy Slides home"><span class="brand-mark">S</span> SPICY <span class="brand-light">SLIDES</span></a>
+    <nav aria-label="Main navigation"><a href="#interface">The editor</a><a href="https://github.com/ABKuznetsov/SPICY">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="intro wrap" aria-labelledby="headline">
+      <div><p class="eyebrow"><span class="live-dot"></span> PRESENTATIONS YOU CAN EXPLORE</p><h1 id="headline">Your slides.<br>A little more <em>alive.</em></h1></div>
+      <div class="intro-copy"><p>Keep the story clear. Open the details when they matter.</p><p class="muted">Spicy Slides is an interactive presentation editor. Pictures with a second layer. Charts you can change.</p><a class="text-link" href="#demo">Try it below <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="demo-section wrap" id="demo" aria-labelledby="demo-title">
+      <div class="demo-heading"><h2 id="demo-title"><span class="live-dot"></span> This is a live presentation.</h2><div class="demo-tools"><button id="expand-demo" type="button">Expand <span aria-hidden="true">⛶</span></button><a href="demo.html" target="_blank" rel="noopener">Open in a new tab <span aria-hidden="true">↗</span></a></div></div>
+      <div class="demo-shell"><iframe id="presentation" src="demo.html" title="Interactive Spicy demo: picture attachment and live chart" allow="fullscreen" allowfullscreen></iframe></div>
+      <p id="fullscreen-status" class="sr-only" aria-live="polite"></p>
+      <div class="try-strip"><p><span class="step">01</span><strong>Click the picture.</strong> A detail opens. Press Esc to come back.</p><p><span class="step">02</span><strong>Go to the next slide →</strong> Switch the chart view, move the slider, try Animate.</p></div>
+      <p class="demo-note">No download or installation needed to try this demo. Chart values and crystal images are illustrative.</p>
+      <p class="demo-note">Keep going for the real editor, presenter mode, custom plugins and the Spicy Slides plugin for ChatGPT.</p>
+      <p class="demo-note">Created with an OpenAI GPT model and the SPICY Slides plugin.</p>
+    </section>
+
+    <section class="story wrap" aria-labelledby="story-title">
+      <div class="section-intro"><p class="eyebrow">ONE STORY. MORE TO DISCOVER.</p><h2 id="story-title">Go deeper.<br>Keep your place.</h2></div>
+      <div class="benefits"><article><span class="feature-symbol" aria-hidden="true">↗</span><h3>Details on demand</h3><p>Put supporting images and explanations behind a click. Open them when the audience asks.</p></article><article><span class="feature-symbol" aria-hidden="true">↔</span><h3>Let people explore</h3><p>Bring a chart or interactive HTML element into the slide. Change the view as you explain.</p></article><article><span class="feature-symbol" aria-hidden="true">↩</span><h3>Stay in the flow</h3><p>Close the detail and return to the same slide. The main story is still there.</p></article></div>
+    </section>
+
+    <section class="interface wrap" id="interface" aria-labelledby="interface-title">
+      <div class="interface-heading"><div><p class="eyebrow">THE ACTUAL EDITOR</p><h2 id="interface-title">A familiar place to create.</h2></div><p>Choose a slide. Add your content.<br>Set what happens on a click.</p></div>
+      <figure><img src="assets/editor.jpg" width="1280" height="720" alt="The real Spicy editor: slide list on the left, a crystal image on the canvas, and its settings on the right." loading="lazy"><figcaption><span><b>1</b> Your slides</span><span><b>2</b> Your canvas</span><span><b>3</b> Your object settings</span></figcaption></figure>
+      <div class="workflow"><p><b>Build</b><span>Add text, pictures and attachments.</span></p><span class="workflow-arrow" aria-hidden="true">→</span><p><b>Try</b><span>Preview your clicks and interactions.</span></p><span class="workflow-arrow" aria-hidden="true">→</span><p><b>Share</b><span>Export an interactive HTML presentation.</span></p></div>
+    </section>
+
+    <section class="extras wrap" aria-label="More Spicy Slides features"><article><h3>Presenter mode</h3><p>Control the slides, read speaker notes and track your time in a dedicated presenter view.</p></article><article><h3>Your own plugins</h3><p>Create custom HTML widgets: interactive charts, calculators and mini demos for your slides.</p></article><article><h3>A ChatGPT companion</h3><p>The SPICY Slides plugin helps create editable presentation drafts. Separate plugin setup is required.</p></article></section>
+
+    <section class="release wrap" aria-labelledby="release-title"><div><p class="eyebrow">WHAT’S NEXT</p><h2 id="release-title">Try the demo today.<br>Installers are coming later.</h2><p>Installer downloads will be published on GitHub Releases when they are ready.</p></div><a class="button" href="https://github.com/ABKuznetsov/SPICY/releases">View releases <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="./">SPICY SLIDES</a><p>Less scrolling through explanations. More showing.</p><a href="https://github.com/ABKuznetsov/SPICY">Project on GitHub ↗</a></footer>
+  <script src="site.js"></script>
+</body>
+</html>
