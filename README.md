@@ -2,7 +2,11 @@
 
 **Presentations you can explore.**
 
-Keep the story clear. Open the details when they matter.
+**Share a link. Your audience opens the presentation in a browser.**
+
+No Spicy installation is needed on the viewing computer, tablet or phone. Open the hosted HTML presentation in a modern browser and explore it there.
+
+Create and play presentations in any Chromium-based browser — Chrome, Edge, Yandex Browser and more.
 
 [![Spicy Slides — click to try the live demo](docs/assets/cover.png)](https://abkuznetsov.github.io/SPICY/)
 
@@ -12,9 +16,10 @@ The demo runs directly inside the page. No installation or download is needed.
 
 - **Click the picture** to open an attached detail, then press Esc to return.
 - **Go to the next slide** to switch chart views, move the slider and animate the data.
+- **Explore the crystal lattice** on the third slide: rotate the 3D model, adjust the zoom, hide ions or show multiple unit cells.
 - **Keep going** for the actual editor, presenter mode, custom plugins and the ChatGPT workflow.
 
-The chart values and crystal images are illustrative.
+The chart values and crystal images are illustrative. The 3D model shows an idealized NaCl rock-salt lattice.
 
 This presentation was created with an OpenAI GPT model and the SPICY Slides plugin.
 
@@ -24,6 +29,8 @@ This presentation was created with an OpenAI GPT model and the SPICY Slides plug
 - **Interaction inside the slide.** Include interactive HTML elements such as a chart with controls.
 - **Keep your place.** Close a detail and return to the same slide.
 - **Share in a browser.** Export a presentation as an interactive HTML file, or host it on a web page.
+- **No installation for your audience.** Share the hosted presentation by link; viewers use their existing browser on a computer, tablet or phone.
+- **Create and present in Chromium.** Use the same browser family to edit presentations and play them back.
 - **Presenter mode.** Control slides, read speaker notes and track your time while the audience sees the presentation.
 - **Custom interactive content.** Create your own HTML widgets for a chart, calculator or mini demo.
 - **A ChatGPT companion.** The Spicy Slides plugin helps prepare editable `.spicy` drafts from a brief or an existing presentation. It requires a separate connection in a compatible ChatGPT workspace.
