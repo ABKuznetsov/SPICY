@@ -7,15 +7,8 @@
 
 **Presentations you can explore.**
 
-## Create presentations and interactive widgets with ChatGPT
-
-**Turn a prompt or your existing materials into an editable SPICY presentation.**
-
-**The SPICY SLIDES ChatGPT plugin also creates interactive widgets — crystal structures, charts and diagrams — that you can install separately in SPICY.**
-
-**[Download the ChatGPT plugin 0.2.1 →](chatgpt-plugin/SPICY-SLIDES-plugin-0.2.1.zip)** · **[Install and start creating →](chatgpt-plugin/INSTALL.md)**
-
-The plugin includes instructions and tools that validate `.spicy` presentations and `.spicy-plugin` packages before delivery. Connect it in a compatible ChatGPT workspace, then open the generated presentation in SPICY to edit it.
+> **More to create: the SPICY SLIDES ChatGPT plugin**  
+> Make editable presentations and interactive add-ons. **[Explore the plugin ↓](#create-presentations-and-interactive-widgets-with-chatgpt)**
 
 **Share a link. Your audience opens the presentation in a browser.**
 
@@ -39,6 +32,16 @@ The chart values and crystal images are illustrative. The 3D model shows an idea
 The Wikipedia layer requires an internet connection. Other websites can be embedded when their own settings allow it.
 
 This presentation was created with an OpenAI GPT model and the SPICY Slides plugin.
+
+## Create presentations and interactive widgets with ChatGPT
+
+**Turn a prompt or your existing materials into an editable SPICY presentation.**
+
+**The SPICY SLIDES ChatGPT plugin also creates interactive widgets — crystal structures, charts and diagrams — that you can install separately in SPICY.**
+
+**[Download the ChatGPT plugin 0.2.1 →](chatgpt-plugin/SPICY-SLIDES-plugin-0.2.1.zip)** · **[Install and start creating →](chatgpt-plugin/INSTALL.md)**
+
+The plugin includes instructions and tools that validate `.spicy` presentations and `.spicy-plugin` packages before delivery. Connect it in a compatible ChatGPT workspace, then open the generated presentation in SPICY to edit it.
 
 ## Thanks for the inspiration
 
@@ -87,4 +90,5 @@ Third-party components keep their own licenses; see [THIRD-PARTY-LICENSES.txt](T
 Section 6 explicitly permits inspiration from publicly observable behavior and general concepts, and independent implementation of similar features. It does not authorize copying protected code or assets or violating third-party rights. The license does not establish exclusive rights over the general idea of tabs, nested details or interactive HTML content.
 
 © 2026 Artem Kuznetsov. SPICY SLIDES.
+
 
