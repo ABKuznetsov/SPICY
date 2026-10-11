@@ -14,10 +14,10 @@ Create and play presentations in any Chromium-based browser — Chrome, Edge, Ya
 
 The demo runs directly inside the page. No installation or download is needed.
 
-- **Turn the NaCl crystal** on the title slide, then choose **Explore the structure** to open a live lattice inside an attachment. **Go one layer deeper** opens a supporting card; **Open Wikipedia** opens a third layer with a live website and tabs.
-- **Go to the next slide** to switch chart views, move the slider and animate the data.
-- **Explore the crystal lattice** on the third slide: rotate the 3D model, adjust the zoom, hide ions or show multiple unit cells.
-- **Keep going** for the actual editor, presenter mode, custom plugins and the ChatGPT workflow.
+- **Start with Spicy Slides** — the title introduces the product and its promise.
+- **On slide 2, turn the NaCl crystal**, then choose **Explore the structure** to rotate the live lattice, adjust zoom, hide ions or show multiple cells. **Go one layer deeper** opens a supporting card; **Open Wikipedia** opens a third layer with a live website and tabs. Close the layers to return to the same slide.
+- **On slide 3, explore the chart**: switch views, move the slider and animate the data.
+- **Keep going** for the actual editor, presenter mode, custom plugins, the ChatGPT workflow and sharing on other devices.
 
 The chart values and crystal images are illustrative. The 3D model shows an idealized NaCl rock-salt lattice.
 
