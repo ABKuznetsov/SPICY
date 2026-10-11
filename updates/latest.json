@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "version": "0.2.0",
+  "build": "20261011",
+  "platforms": {
+    "macos": {
+      "url": "https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.pkg",
+      "sha256": "7a79b32f50645c5f1e6820aaeb3a55edd0d8f599c44baee7cd91cdcafdaa69b1",
+      "kind": "installer"
+    },
+    "windows": {
+      "url": "https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-portable.zip",
+      "sha256": "68fcc1afec60dae96a5f91c81daaacfc4a1cec210d53c9003646418e0d86222b",
+      "kind": "portable"
+    },
+    "linux": {
+      "url": "https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-portable.zip",
+      "sha256": "68fcc1afec60dae96a5f91c81daaacfc4a1cec210d53c9003646418e0d86222b",
+      "kind": "portable"
+    },
+    "portable": {
+      "url": "https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-portable.zip",
+      "sha256": "68fcc1afec60dae96a5f91c81daaacfc4a1cec210d53c9003646418e0d86222b",
+      "kind": "portable"
+    }
+  }
+}
