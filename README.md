@@ -59,4 +59,8 @@ GitHub Pages publishes the site from `main` → `/docs`. The README cover links 
 
 ## License
 
-See [LICENSE](LICENSE) for the Mozilla Public License 2.0.
+The [Mozilla Public License 2.0](LICENSE) applies to the published website and demo materials in this repository, except where a separate notice specifies otherwise. This repository does not contain the Spicy editor application; its license does not, by itself, license an editor that is not included here.
+
+The editor will be distributed separately. Its applicable license terms and third-party notices will accompany future installers. This distinction does not change rights already granted for code released under MPL-2.0 or another license; obligations for any included open-source components still apply.
+
+© 2026 Artem Kuznetsov. SPICY SLIDES.
