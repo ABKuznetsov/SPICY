@@ -25,7 +25,9 @@ The Wikipedia layer requires an internet connection. Other websites can be embed
 
 This presentation was created with an OpenAI GPT model and the SPICY Slides plugin.
 
-Inspired by [reveal.js](https://revealjs.com/), [Slides.com](https://slides.com/), [Genially](https://genially.com/) and [PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint).
+## Thanks for the inspiration
+
+Thank you to the creators and communities behind [reveal.js](https://revealjs.com/), [Slides.com](https://slides.com/), [Genially](https://genially.com/) and [PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint). Your work inspired SPICY SLIDES and our approach to interactive presentations, details on demand and presenting in a browser.
 
 ## Why Spicy?
 
