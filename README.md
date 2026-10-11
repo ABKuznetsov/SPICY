@@ -59,8 +59,12 @@ GitHub Pages publishes the site from `main` → `/docs`. The README cover links 
 
 ## License
 
-The [Mozilla Public License 2.0](LICENSE) applies to the published website and demo materials in this repository, except where a separate notice specifies otherwise. This repository does not contain the Spicy editor application; its license does not, by itself, license an editor that is not included here.
+SPICY SLIDES is free to use, including for commercial presentations, under the [SPICY SLIDES Proprietary License](LICENSE). It is not an open-source license and does not require publication of the editor's proprietary source code.
 
-The editor will be distributed separately. Its applicable license terms and third-party notices will accompany future installers. This distinction does not change rights already granted for code released under MPL-2.0 or another license; obligations for any included open-source components still apply.
+The license reserves rights in Artem Kuznetsov's code, permits sharing your presentations and their HTML viewers, and allows independently written plugins. Redistribution, resale, rebranding and reuse of the proprietary editor code require separate permission, subject to rights preserved by applicable law.
+
+Third-party components keep their own licenses; see [THIRD-PARTY-LICENSES.txt](THIRD-PARTY-LICENSES.txt). Earlier copies distributed under MPL-2.0 retain their applicable rights; the [previous MPL text](LICENSES/MPL-2.0-prior.txt) is preserved. The new terms do not retroactively revoke earlier licenses.
+
+The license protects rights in the implementation. It does not establish exclusive rights over the general idea of tabs, nested details or interactive HTML content.
 
 © 2026 Artem Kuznetsov. SPICY SLIDES.

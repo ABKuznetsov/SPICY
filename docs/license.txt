@@ -1,0 +1,131 @@
+SPICY SLIDES Proprietary License
+Version 1.0 — 11 October 2026
+Copyright © 2026 Artem Kuznetsov. All rights reserved except as granted below.
+
+1. Scope and rights holder
+
+Artem Kuznetsov (the "Licensor") grants the permissions below for copies of
+SPICY SLIDES distributed with this license. The "Software" means the editor,
+its launcher and presentation viewer code owned by the Licensor. It does not
+include user-created content or components carrying their own licenses.
+This is a proprietary software license, not an open-source license.
+
+2. Free-of-charge use
+
+You may install and use the Software free of charge for personal, educational,
+research and commercial work, on any number of devices you own or control.
+You may make copies reasonably needed for installation, internal deployment
+within your organization and backup, retaining the license and notices.
+You may view the official website and interactive demos in a browser, share
+links to them, and download and adapt the supplied sample presentations for
+your own presentations. No source-code delivery obligation is imposed by
+this license on the Licensor or on users for the Licensor's proprietary code.
+Third-party obligations are addressed in section 7.
+
+3. Your presentations and exported viewers
+
+The Licensor claims no ownership of your presentations, text, images, data,
+notes or other user-created material. Subject to rights in content supplied
+by others, you may edit, publish, distribute, sell and host your presentations
+and their exports, including interactive HTML exports, without paying a
+royalty to the Licensor. Recipients may use the included viewer code to view
+and interact with those presentations without installing the editor.
+
+You may distribute the viewer code supplied by the export as part of a
+presentation, preserve its license notices, and make layout/content changes
+to the presentation. This permission does not grant the right to extract or
+reuse proprietary editor or viewer code in a different software product, or
+to redistribute the editor itself. Any viewer portions distributed under
+an open-source license remain governed by that license.
+
+4. Plugins and interoperability
+
+You may create, use, share and sell your own plugins, HTML widgets and other
+independently authored integrations using the Software's exposed interfaces,
+without obtaining permission for each plugin. You retain rights to your own
+code. This permission does not authorize copying proprietary Software code
+into an integration. Rights required by mandatory law for interoperability,
+security research or other permitted activities are not restricted.
+
+5. Restrictions on the proprietary Software
+
+Unless the Licensor gives separate written permission, you may not:
+(a) sell, rent, sublicense, publicly redistribute or mirror the editor or
+    its installer, or bundle it with another product; share the official
+    download link instead;
+(b) distribute modified versions of the editor, rebrand it as your product,
+    or incorporate its proprietary code or substantial protected portions
+    into another software product;
+(c) reverse engineer, decompile, disassemble or extract proprietary code
+    for reuse, except where permitted by non-waivable applicable law or
+    by an express permission in this license;
+(d) remove or falsify proprietary copyright, attribution or license notices.
+
+These restrictions do not apply to your own content, independently written
+plugins, activities expressly allowed above, third-party components to the
+extent their licenses permit them, or rights that applicable law preserves.
+The fact that HTML or JavaScript code can be inspected does not itself grant
+a right to reuse that proprietary code.
+
+6. Branding and independent development
+
+No general right to use the SPICY SLIDES name or logos as the branding of
+your own software, or to suggest sponsorship or endorsement, is granted.
+Accurate references to SPICY SLIDES, reviews and screenshots demonstrating
+its use are permitted, subject to applicable law and third-party rights.
+This license does not claim ownership of abstract ideas, methods, algorithms
+or functionality as such, and does not prohibit lawful independent creation
+of software based on concepts that are not protected intellectual property.
+
+7. Third-party software and earlier licenses
+
+Third-party components are governed by their own licenses and notices,
+including THIRD-PARTY-LICENSES.txt, which take precedence for those components.
+This license neither replaces them nor limits rights they grant. Required
+notices, permissions and any applicable source-code obligations must be
+preserved. A browser installed separately by you is not relicensed here.
+
+Copies previously distributed under MPL-2.0 or another license, and rights
+already granted for those copies, remain under their applicable terms. This
+license does not retroactively withdraw such rights. Where you have a valid
+separate license to the same code, you may exercise rights under that license.
+Only code for which the Licensor has the necessary rights is offered under
+these proprietary terms.
+
+8. Warranty and liability
+
+To the maximum extent permitted by applicable law, the Software is supplied
+"AS IS" and "AS AVAILABLE", without express or implied warranties, including
+merchantability, fitness for a particular purpose or non-infringement.
+You are responsible for keeping backups and checking your own presentation
+content and outputs. No promise of updates, support or uninterrupted service
+is made unless agreed separately in writing.
+
+To the maximum extent permitted by applicable law, the Licensor is not liable
+for indirect or consequential loss, loss of data, profits or business arising
+from use of the Software. Nothing excludes liability or consumer rights that
+cannot legally be excluded, including any applicable mandatory protections.
+
+9. Duration and termination
+
+The license for a copy continues while you comply with its terms. If the
+Licensor gives notice of a material breach, the license may be terminated
+if you do not cure it within 30 days, except where applicable law requires
+otherwise. On termination, stop using the proprietary editor and delete its
+copies, except copies that law requires you to retain. This does not transfer
+ownership of your content or prevent you from sharing previously exported
+presentations as allowed by section 3. Third-party and earlier license rights
+are unaffected.
+
+10. Acceptance, applicable law and updates to terms
+
+By installing or using a copy of the proprietary Software supplied under
+these terms, you accept them to the extent such acceptance is recognized by
+applicable law. If you do not accept, do not install or use that copy; this
+does not affect rights you have under another applicable license.
+Mandatory applicable law prevails. If a provision is unenforceable, the
+remaining provisions continue to the extent legally permitted.
+A revised license applies only to copies supplied with that revised license;
+posting new terms does not retroactively change this license for your copy.
+For additional permissions, contact the Licensor through the official
+project: https://github.com/ABKuznetsov/SPICY
