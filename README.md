@@ -25,6 +25,8 @@ The Wikipedia layer requires an internet connection. Other websites can be embed
 
 This presentation was created with an OpenAI GPT model and the SPICY Slides plugin.
 
+Inspired by [reveal.js](https://revealjs.com/), [Slides.com](https://slides.com/), [Genially](https://genially.com/) and [PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint).
+
 ## Why Spicy?
 
 - **Details on demand.** Put supporting images and explanations behind a click.
@@ -65,6 +67,6 @@ The license reserves rights in Artem Kuznetsov's code, permits sharing your pres
 
 Third-party components keep their own licenses; see [THIRD-PARTY-LICENSES.txt](THIRD-PARTY-LICENSES.txt). Earlier copies distributed under MPL-2.0 retain their applicable rights; the [previous MPL text](LICENSES/MPL-2.0-prior.txt) is preserved. The new terms do not retroactively revoke earlier licenses.
 
-The license protects rights in the implementation. It does not establish exclusive rights over the general idea of tabs, nested details or interactive HTML content.
+Section 6 explicitly permits inspiration from publicly observable behavior and general concepts, and independent implementation of similar features. It does not authorize copying protected code or assets or violating third-party rights. The license does not establish exclusive rights over the general idea of tabs, nested details or interactive HTML content.
 
 © 2026 Artem Kuznetsov. SPICY SLIDES.

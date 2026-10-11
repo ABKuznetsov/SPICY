@@ -1,5 +1,5 @@
 SPICY SLIDES Proprietary License
-Version 1.0 — 11 October 2026
+Version 1.1 — 11 October 2026
 Copyright © 2026 Artem Kuznetsov. All rights reserved except as granted below.
 
 1. Scope and rights holder
@@ -76,6 +76,13 @@ its use are permitted, subject to applicable law and third-party rights.
 This license does not claim ownership of abstract ideas, methods, algorithms
 or functionality as such, and does not prohibit lawful independent creation
 of software based on concepts that are not protected intellectual property.
+
+Inspiration from publicly observable behavior and general concepts, and
+independent implementation of similar features, are permitted by this
+license. The restrictions in section 5 do not prohibit such inspiration.
+This permission does not authorize copying protected code or assets,
+infringing patents, or violating third-party licenses or trademark rights.
+
 
 7. Third-party software and earlier licenses
 
