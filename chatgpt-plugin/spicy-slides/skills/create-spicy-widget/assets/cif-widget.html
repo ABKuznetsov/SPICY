@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SPICY — CIF виджет</title>
+<style>html,body{margin:0;height:100%;font:14px Arial,sans-serif;color:#173247;background:#fff}*{box-sizing:border-box}main{height:100%;display:flex;flex-direction:column;padding:16px;gap:10px}header,.controls,#elements,#author-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}h1{font-size:20px;margin:0;flex:1}button,.file{padding:8px 12px;background:#eef4f6;border:1px solid #b6cbd4;border-radius:8px;color:#173247;cursor:pointer;font:600 13px Arial}button.active{background:#d8edf0;border-color:#278f9b}.file input{display:none}canvas{width:100%;min-height:140px;flex:1;touch-action:none;cursor:grab;border:1px solid #dbe7eb;border-radius:12px}#message{color:#527180;min-height:20px}label{display:flex;gap:6px;align-items:center}#author-controls[hidden]{display:none}</style></head>
+<body><main><header><h1 id="name">Кристаллическая структура</h1><button id="fullscreen">⛶</button></header>
+<div id="author-controls"><label class="file">Открыть CIF<input id="cif" type="file" accept=".cif"></label><button id="export">Сохранить настроенный виджет</button></div>
+<canvas id="structure" aria-label="Кристаллическая структура"></canvas><div id="elements"></div>
+<div class="controls"><button id="atoms">Атомы</button><button id="bonds">Связи по расстоянию</button><button id="cell">Ячейка</button><button id="reset">Сбросить вид</button><label>Расстояние, Å<input id="cutoff" type="range" min="0.5" max="4" step="0.05"></label><label>Размер атомов<input id="atomSize" type="range" min="2" max="12" step="1"></label></div><div id="message" role="status"></div></main>
+<script id="spicy-widget-config" type="application/json">__SPICY_CONFIG__</script>
+<script>__SPICY_RUNTIME__</script></body></html>

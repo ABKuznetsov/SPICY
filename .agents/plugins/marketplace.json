@@ -1,0 +1,15 @@
+{
+  "name": "spicy-slides",
+  "interface": {
+    "displayName": "SPICY SLIDES"
+  },
+  "plugins": [
+    {
+      "name": "spicy-slides",
+      "source": {
+        "source": "local",
+        "path": "./chatgpt-plugin/spicy-slides"
+      }
+    }
+  ]
+}

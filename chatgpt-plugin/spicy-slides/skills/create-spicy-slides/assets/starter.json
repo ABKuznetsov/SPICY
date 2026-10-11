@@ -1,0 +1,611 @@
+{
+  "animations": {},
+  "assets": {},
+  "components": {},
+  "defaultPagePresetId": "page-default",
+  "documentId": "01a118cf-4800-7f05-bbe2-bd5a1f1fd45c",
+  "embeds": {},
+  "extensions": {},
+  "formatVersion": "1.0.0",
+  "interactions": {
+    "click-detail": {
+      "actions": [
+        {
+          "geometry": {
+            "height": 400,
+            "rotation": 0,
+            "width": 640,
+            "x": 480,
+            "y": 250
+          },
+          "kind": "card",
+          "targetId": "detail-panel",
+          "type": "openPortal"
+        }
+      ],
+      "conditions": [],
+      "enabled": true,
+      "id": "click-detail",
+      "ownerNodeId": "trigger",
+      "trigger": {
+        "type": "click"
+      }
+    },
+    "hover-preview": {
+      "actions": [
+        {
+          "geometry": {
+            "height": 220,
+            "rotation": 0,
+            "width": 480,
+            "x": 620,
+            "y": 180
+          },
+          "kind": "card",
+          "targetId": "preview-panel",
+          "type": "show"
+        }
+      ],
+      "conditions": [],
+      "enabled": true,
+      "id": "hover-preview",
+      "ownerNodeId": "trigger",
+      "trigger": {
+        "type": "hover"
+      }
+    },
+    "open-nested-panel": {
+      "actions": [
+        {
+          "geometry": {
+            "height": 400,
+            "rotation": 0,
+            "width": 640,
+            "x": 480,
+            "y": 250
+          },
+          "kind": "card",
+          "targetId": "nested-panel",
+          "type": "openPortal"
+        }
+      ],
+      "conditions": [],
+      "enabled": true,
+      "id": "open-nested-panel",
+      "ownerNodeId": "nested-trigger",
+      "trigger": {
+        "type": "click"
+      }
+    }
+  },
+  "metadata": {
+    "createdAt": "2026-10-08T00:00:00.000Z",
+    "description": "",
+    "language": "ru",
+    "modifiedAt": "2026-10-08T00:00:00.000Z",
+    "title": "SPICY SLIDES — шаблон"
+  },
+  "nodes": {
+    "01a118cf-4800-7889-beaf-aa1e41cdf5e8": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [
+        "caption",
+        "card"
+      ],
+      "content": {},
+      "geometry": {
+        "height": 900,
+        "rotation": 0,
+        "width": 1600,
+        "x": 0,
+        "y": 0
+      },
+      "id": "01a118cf-4800-7889-beaf-aa1e41cdf5e8",
+      "interactionIds": [],
+      "layout": {
+        "aspectRatio": "locked",
+        "horizontal": "stretch",
+        "overflow": "hidden",
+        "vertical": "stretch"
+      },
+      "locked": false,
+      "name": "Слайд 1",
+      "parentId": null,
+      "pluginData": {},
+      "source": {},
+      "style": {
+        "background": "#ffffff",
+        "overflow": "hidden"
+      },
+      "type": "frame",
+      "visible": true
+    },
+    "caption": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"caption\" style=\"width:100%;height:100%;box-sizing:border-box;font:48px/1.2 Arial,sans-serif;color:#15324a\">Редактируемый <strong><em><u>заголовок</u></em></strong></div>",
+        "role": "text",
+        "textEditable": true
+      },
+      "geometry": {
+        "height": 100,
+        "rotation": 0,
+        "width": 1440,
+        "x": 80,
+        "y": 60
+      },
+      "id": "caption",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Текст",
+      "parentId": "01a118cf-4800-7889-beaf-aa1e41cdf5e8",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    },
+    "card": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [
+        "trigger",
+        "detail-panel",
+        "trigger-caption",
+        "preview-panel"
+      ],
+      "content": {
+        "role": "card"
+      },
+      "geometry": {
+        "height": 280,
+        "rotation": 0,
+        "width": 480,
+        "x": 80,
+        "y": 240
+      },
+      "id": "card",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Объект с вложением",
+      "parentId": "01a118cf-4800-7889-beaf-aa1e41cdf5e8",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "component",
+      "visible": true
+    },
+    "detail-caption": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"detail-caption\" style=\"width:100%;height:100%;box-sizing:border-box;font:32px/1.2 Arial,sans-serif;color:#17212b;white-space:pre-wrap\">Подробности в отдельной карточке</div>",
+        "role": "text",
+        "textEditable": true
+      },
+      "geometry": {
+        "height": 100,
+        "rotation": 0,
+        "width": 570,
+        "x": 32,
+        "y": 32
+      },
+      "id": "detail-caption",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Текст",
+      "parentId": "detail-panel",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    },
+    "detail-panel": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [
+        "detail-caption",
+        "nested-card"
+      ],
+      "content": {
+        "role": "card-panel"
+      },
+      "geometry": {
+        "height": 400,
+        "rotation": 0,
+        "width": 640,
+        "x": 0,
+        "y": 0
+      },
+      "id": "detail-panel",
+      "interactionIds": [],
+      "layout": {
+        "aspectRatio": "locked",
+        "overflow": "hidden"
+      },
+      "locked": false,
+      "name": "Вложение",
+      "parentId": "card",
+      "pluginData": {
+        "contentViewport": {
+          "height": 400,
+          "width": 640
+        },
+        "portalGeometry": {
+          "height": 400,
+          "rotation": 0,
+          "width": 640,
+          "x": 480,
+          "y": 250
+        },
+        "scaleMode": "uniform"
+      },
+      "source": {},
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#94afc6",
+        "borderRadius": 16,
+        "borderStyle": "solid",
+        "borderWidth": 2
+      },
+      "type": "frame",
+      "visible": false
+    },
+    "nested-caption": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"nested-caption\" style=\"width:100%;height:100%;box-sizing:border-box;font:32px/1.2 Arial,sans-serif;color:#17212b;white-space:pre-wrap\">Это текст внутри вложенной карточки</div>",
+        "role": "text",
+        "textEditable": true
+      },
+      "geometry": {
+        "height": 120,
+        "rotation": 0,
+        "width": 570,
+        "x": 32,
+        "y": 32
+      },
+      "id": "nested-caption",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Текст",
+      "parentId": "nested-panel",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    },
+    "nested-card": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [
+        "nested-trigger",
+        "nested-panel"
+      ],
+      "content": {
+        "role": "card"
+      },
+      "geometry": {
+        "height": 150,
+        "rotation": 0,
+        "width": 280,
+        "x": 32,
+        "y": 170
+      },
+      "id": "nested-card",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Объект с вложением",
+      "parentId": "detail-panel",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "component",
+      "visible": true
+    },
+    "nested-panel": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [
+        "nested-caption"
+      ],
+      "content": {
+        "role": "card-panel"
+      },
+      "geometry": {
+        "height": 400,
+        "rotation": 0,
+        "width": 640,
+        "x": 0,
+        "y": 0
+      },
+      "id": "nested-panel",
+      "interactionIds": [],
+      "layout": {
+        "aspectRatio": "locked",
+        "overflow": "hidden"
+      },
+      "locked": false,
+      "name": "Вложение",
+      "parentId": "nested-card",
+      "pluginData": {
+        "contentViewport": {
+          "height": 400,
+          "width": 640
+        },
+        "portalGeometry": {
+          "height": 400,
+          "rotation": 0,
+          "width": 640,
+          "x": 480,
+          "y": 250
+        },
+        "scaleMode": "uniform"
+      },
+      "source": {},
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#94afc6",
+        "borderRadius": 16,
+        "borderStyle": "solid",
+        "borderWidth": 2
+      },
+      "type": "frame",
+      "visible": false
+    },
+    "nested-trigger": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"nested-trigger\" style=\"width:100%;height:100%;box-sizing:border-box;background:#dcecf2;border:2px solid #4f7693;border-radius:24px\"></div>",
+        "role": "card-trigger",
+        "textEditable": false
+      },
+      "geometry": {
+        "height": 150,
+        "rotation": 0,
+        "width": 280,
+        "x": 0,
+        "y": 0
+      },
+      "id": "nested-trigger",
+      "interactionIds": [
+        "open-nested-panel"
+      ],
+      "layout": {},
+      "locked": false,
+      "name": "Скруглённый прямоугольник",
+      "parentId": "nested-card",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    },
+    "preview-caption": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"preview-caption\" style=\"width:100%;height:100%;box-sizing:border-box;font:32px/1.2 Arial,sans-serif;color:#17212b;white-space:pre-wrap\">Краткое пояснение при наведении</div>",
+        "role": "text",
+        "textEditable": true
+      },
+      "geometry": {
+        "height": 150,
+        "rotation": 0,
+        "width": 432,
+        "x": 24,
+        "y": 24
+      },
+      "id": "preview-caption",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Текст",
+      "parentId": "preview-panel",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    },
+    "preview-panel": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [
+        "preview-caption"
+      ],
+      "content": {
+        "role": "card-panel"
+      },
+      "geometry": {
+        "height": 220,
+        "rotation": 0,
+        "width": 480,
+        "x": 0,
+        "y": 0
+      },
+      "id": "preview-panel",
+      "interactionIds": [],
+      "layout": {
+        "aspectRatio": "locked",
+        "overflow": "hidden"
+      },
+      "locked": false,
+      "name": "Краткое пояснение",
+      "parentId": "card",
+      "pluginData": {
+        "contentViewport": {
+          "height": 220,
+          "width": 480
+        },
+        "portalGeometry": {
+          "height": 220,
+          "rotation": 0,
+          "width": 480,
+          "x": 620,
+          "y": 180
+        },
+        "scaleMode": "uniform"
+      },
+      "source": {},
+      "style": {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#94afc6",
+        "borderRadius": 16,
+        "borderStyle": "solid",
+        "borderWidth": 2
+      },
+      "type": "frame",
+      "visible": false
+    },
+    "trigger": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"trigger\" style=\"width:100%;height:100%;box-sizing:border-box;background:#dcecf2;border:2px solid #4f7693;border-radius:24px\"></div>",
+        "role": "card-trigger",
+        "textEditable": false
+      },
+      "geometry": {
+        "height": 280,
+        "rotation": 0,
+        "width": 480,
+        "x": 0,
+        "y": 0
+      },
+      "id": "trigger",
+      "interactionIds": [
+        "hover-preview",
+        "click-detail"
+      ],
+      "layout": {},
+      "locked": false,
+      "name": "Скруглённый прямоугольник",
+      "parentId": "card",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    },
+    "trigger-caption": {
+      "accessibility": {},
+      "animationIds": [],
+      "children": [],
+      "content": {
+        "assetIds": [],
+        "markup": "<div data-eid=\"trigger-caption\" style=\"width:100%;height:100%;box-sizing:border-box;font:32px/1.2 Arial,sans-serif;color:#17212b;white-space:pre-wrap\">Наведение: кратко<br>Щелчок: подробнее</div>",
+        "role": "text",
+        "textEditable": true
+      },
+      "geometry": {
+        "height": 170,
+        "rotation": 0,
+        "width": 400,
+        "x": 32,
+        "y": 32
+      },
+      "id": "trigger-caption",
+      "interactionIds": [],
+      "layout": {},
+      "locked": false,
+      "name": "Текст",
+      "parentId": "card",
+      "pluginData": {},
+      "source": {},
+      "style": {},
+      "type": "html",
+      "visible": true
+    }
+  },
+  "pagePresets": {
+    "page-default": {
+      "height": 900,
+      "id": "page-default",
+      "name": "16:9",
+      "unit": "px",
+      "width": 1600
+    }
+  },
+  "scenes": {
+    "01a118cf-4800-72a2-a5bb-0b4dda4f6768": {
+      "id": "01a118cf-4800-72a2-a5bb-0b4dda4f6768",
+      "rootNodeId": "01a118cf-4800-7889-beaf-aa1e41cdf5e8"
+    }
+  },
+  "sectionOrder": [],
+  "sections": {},
+  "settings": {
+    "presentationOutline": {
+      "nodes": {
+        "block-main": {
+          "children": [
+            "outline-slide-01a118cf-4800-7b15-9a2b-58d34e95fed4"
+          ],
+          "color": "#2f7d8c",
+          "id": "block-main",
+          "name": "Основной доклад",
+          "type": "block"
+        },
+        "outline-slide-01a118cf-4800-7b15-9a2b-58d34e95fed4": {
+          "id": "outline-slide-01a118cf-4800-7b15-9a2b-58d34e95fed4",
+          "slideId": "01a118cf-4800-7b15-9a2b-58d34e95fed4",
+          "type": "slide"
+        }
+      },
+      "rootIds": [
+        "block-main"
+      ],
+      "version": 1
+    }
+  },
+  "slideOrder": [
+    "01a118cf-4800-7b15-9a2b-58d34e95fed4"
+  ],
+  "slides": {
+    "01a118cf-4800-7b15-9a2b-58d34e95fed4": {
+      "hidden": false,
+      "id": "01a118cf-4800-7b15-9a2b-58d34e95fed4",
+      "name": "Слайд 1",
+      "notes": "",
+      "pagePresetId": null,
+      "sceneId": "01a118cf-4800-72a2-a5bb-0b4dda4f6768",
+      "sectionId": null,
+      "source": {},
+      "transitionId": null
+    }
+  },
+  "themes": {
+    "default": {
+      "id": "default",
+      "name": "Spicy Default",
+      "tokens": {}
+    }
+  },
+  "transitions": {},
+  "variables": {}
+}
+

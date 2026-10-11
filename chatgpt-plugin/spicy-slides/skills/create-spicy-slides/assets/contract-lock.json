@@ -1,0 +1,16 @@
+{
+  "profile": "spicy-gpt-authoring-v1",
+  "formatVersion": "1.0.0",
+  "packageLayout": "split-slides-v1",
+  "files": {
+    "assets/schema.json": "b567c59bbf4d5560b55a445cda4e15bc02b2bb14c3e8969c6f0aafff84ede9be",
+    "assets/starter.json": "4527e7e3944bb0de574449c6667957d3beca485b87fa741c00c64396c645e986",
+    "scripts/strict_contract.py": "5773399010ebb14ca06c6f36252262803d4e76b7beb08857072fbc91106f9997",
+    "scripts/package_spicy.py": "220464079d040b83f4f6600c19fcbcf3d00b0339dbf8c6ae30d6e74e8aa58254",
+    "scripts/author_spicy.py": "f5dc9947228f60c02e5ae422cd6e6de24c391366209306a28db22e2d651004b2",
+    "scripts/widget_contract.py": "eaa264313633b4b81740d8a24c58f01c273ac210c58c288e6d998f7234f9030f",
+    "scripts/verify_contract.py": "f45384348dd7578b76119a0eeba15724d111d67d36693fc3c73d793d7bfa68c1",
+    "scripts/create_widget.py": "d0cf25ea91181d5fdfa252a3bc415f8f093e9e22490e5226d3ed908c3b855b2c",
+    "scripts/package_widget_plugin.py": "9ec525b854bff279b107b03c6b22017bf51dcc038f6209794930b2211b6acea6"
+  }
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "SPICY SLIDES"
+  short_description: "Создание редактируемых интерактивных презентаций"
+  default_prompt: "Используй $create-spicy-slides и создай презентацию SPICY SLIDES по моим материалам, с отдельными объектами и вложенными карточками."
+
+policy:
+  allow_implicit_invocation: true
+

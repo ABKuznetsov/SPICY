@@ -72,3 +72,7 @@ Third-party components keep their own licenses; see [THIRD-PARTY-LICENSES.txt](T
 Section 6 explicitly permits inspiration from publicly observable behavior and general concepts, and independent implementation of similar features. It does not authorize copying protected code or assets or violating third-party rights. The license does not establish exclusive rights over the general idea of tabs, nested details or interactive HTML content.
 
 © 2026 Artem Kuznetsov. SPICY SLIDES.
+
+## ChatGPT plugin
+
+Create editable `.spicy` presentations and independently installable `.spicy-plugin` widgets with the SPICY SLIDES ChatGPT plugin. [Installation and usage](chatgpt-plugin/INSTALL.md) · [Download version 0.2.1](chatgpt-plugin/SPICY-SLIDES-plugin-0.2.1.zip). The plugin package includes instructions and validated authoring tools; it does not include the editor application or user presentations.

@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "SPICY SLIDES",
+    "shortDescription": "Презентации и виджеты SPICY",
+    "longDescription": "Создаёт редактируемые презентации и автономные интерактивные виджеты, включая структуры из CIF. Фиксирует формат .spicy: проверяет SDK, неизвестные поля, действия, ресурсы, SHA-256 и повторное чтение ZIP перед выдачей.",
+    "developerName": "Artem Kuznetsov",
+    "category": "Productivity",
+    "capabilities": [
+      "Create presentations",
+      "Edit slides",
+      "Interactive cards"
+    ],
+    "websiteURL": "https://github.com/ABKuznetsov/SPICY",
+    "defaultPrompt": [
+      "Создай презентацию SPICY SLIDES по моим материалам. Сохрани текст, изображения и боксы отдельными редактируемыми объектами и выдай готовый .spicy."
+    ]
+  },
+  "name": "spicy-slides",
+  "version": "0.2.1",
+  "description": "Create validated editable SPICY SLIDES presentations and self-contained interactive widgets with a fixed document contract.",
+  "author": {
+    "name": "Artem Kuznetsov"
+  },
+  "keywords": [
+    "presentations",
+    "slides",
+    "spicy",
+    "interactive",
+    "html",
+    "widgets",
+    "cif",
+    "validation"
+  ],
+  "repository": "https://github.com/ABKuznetsov/SPICY",
+  "skills": "./skills"
+}
