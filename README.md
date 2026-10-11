@@ -69,13 +69,13 @@ Choose a slide on the left, arrange your content on the canvas, and adjust the s
 
 **[Download the macOS installer (PKG)](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.pkg)** — macOS 13+, Apple Silicon and Intel. Installs in Applications and opens `.spicy` files in separate editor windows. A Chromium browser (Chrome, Edge, Yandex, Brave or Chromium) must be installed.
 
-[macOS DMG](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.dmg) · [Portable ZIP for Windows / Linux](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-portable.zip) · [All release files](https://github.com/ABKuznetsov/SPICY/releases/tag/v0.2.0).
+[macOS DMG](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.dmg) · [All release files](https://github.com/ABKuznetsov/SPICY/releases/tag/v0.2.0).
 
 **[CIF Viewer 1.1.0 — independent crystal-structure plugin](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/CIF-Viewer-1.1.0.spicy-plugin).** Install through **Plugins → Install or update**, then configure and insert. Choose which controls remain visible, build geometric coordination polyhedra with neighbors across cell boundaries, and save a self-contained widget. Existing slide objects keep their own runtime.
 
 The macOS app is not Apple Developer signed or notarized; macOS may require allowing it in System Settings → Privacy & Security. Updates replace the app while retaining the dedicated browser profile and separately stored presentations.
 
-The repository contains the product page, presentation demo and ChatGPT authoring plugin. Editor binaries are distributed through GitHub Releases; the proprietary editor source code is not included.
+The repository contains the product page, presentation demo and ChatGPT authoring plugin. Editor installers are distributed through GitHub Releases; the editor source repository is not published.
 
 ## Demo files
 
