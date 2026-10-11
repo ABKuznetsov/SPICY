@@ -1,6 +1,21 @@
 # Spicy Slides
 
+[![ChatGPT plugin version](https://img.shields.io/badge/ChatGPT_plugin-0.2.1-1677ff)](chatgpt-plugin/INSTALL.md)
+![Platform: Windows, macOS, Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-777777)
+[![Format: .spicy](https://img.shields.io/badge/Format-.spicy-e8794f)](chatgpt-plugin/INSTALL.md)
+[![License: Proprietary](https://img.shields.io/badge/License-Proprietary-79a900)](LICENSE)
+
 **Presentations you can explore.**
+
+## Create presentations and interactive widgets with ChatGPT
+
+**Turn a prompt or your existing materials into an editable SPICY presentation.**
+
+**The SPICY SLIDES ChatGPT plugin also creates interactive widgets — crystal structures, charts and diagrams — that you can install separately in SPICY.**
+
+**[Download the ChatGPT plugin 0.2.1 →](chatgpt-plugin/SPICY-SLIDES-plugin-0.2.1.zip)** · **[Install and start creating →](chatgpt-plugin/INSTALL.md)**
+
+The plugin includes instructions and tools that validate `.spicy` presentations and `.spicy-plugin` packages before delivery. Connect it in a compatible ChatGPT workspace, then open the generated presentation in SPICY to edit it.
 
 **Share a link. Your audience opens the presentation in a browser.**
 
@@ -73,6 +88,3 @@ Section 6 explicitly permits inspiration from publicly observable behavior and g
 
 © 2026 Artem Kuznetsov. SPICY SLIDES.
 
-## ChatGPT plugin
-
-Create editable `.spicy` presentations and independently installable `.spicy-plugin` widgets with the SPICY SLIDES ChatGPT plugin. [Installation and usage](chatgpt-plugin/INSTALL.md) · [Download version 0.2.1](chatgpt-plugin/SPICY-SLIDES-plugin-0.2.1.zip). The plugin package includes instructions and validated authoring tools; it does not include the editor application or user presentations.
