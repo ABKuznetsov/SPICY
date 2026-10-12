@@ -67,9 +67,11 @@ Choose a slide on the left, arrange your content on the canvas, and adjust the s
 
 ## Download
 
+**[Download the Windows installer](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-Windows-Setup.exe)** — Windows x64. Installs in `C:\Program Files\SPICY SLIDES`, associates `.spicy` files with the editor and opens presentations in separate windows. A Chromium browser (Chrome, Edge, Yandex, Brave or Chromium) must be installed.
+
 **[Download the macOS installer (PKG)](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.pkg)** — macOS 13+, Apple Silicon and Intel. Installs in Applications and opens `.spicy` files in separate editor windows. A Chromium browser (Chrome, Edge, Yandex, Brave or Chromium) must be installed.
 
-[macOS DMG](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.dmg) · [All release files](https://github.com/ABKuznetsov/SPICY/releases/tag/v0.2.0).
+[macOS DMG](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.dmg) · [Checksums](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/checksums.sha256) · [All release files](https://github.com/ABKuznetsov/SPICY/releases/tag/v0.2.0).
 
 **[CIF Viewer 1.1.0 — independent crystal-structure plugin](https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/CIF-Viewer-1.1.0.spicy-plugin).** Install through **Plugins → Install or update**, then configure and insert. Choose which controls remain visible, build geometric coordination polyhedra with neighbors across cell boundaries, and save a self-contained widget. Existing slide objects keep their own runtime.
 

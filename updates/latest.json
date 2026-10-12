@@ -3,6 +3,11 @@
   "version": "0.2.0",
   "build": "20261011",
   "platforms": {
+    "windows": {
+      "url": "https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-Windows-Setup.exe",
+      "sha256": "11b9a608e0b5b6825632d8b48cbd9602896c857300adf7a7ca9fb0711c8ea150",
+      "kind": "installer"
+    },
     "macos": {
       "url": "https://github.com/ABKuznetsov/SPICY/releases/download/v0.2.0/SPICY-SLIDES-0.2.0-macOS.pkg",
       "sha256": "7a79b32f50645c5f1e6820aaeb3a55edd0d8f599c44baee7cd91cdcafdaa69b1",
